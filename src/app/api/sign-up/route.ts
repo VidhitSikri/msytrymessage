@@ -90,7 +90,8 @@ export async function POST(request: Request){
                 message: "user registered successfully, please verify your email",
             },{
                 status: 201
-            })
+            }
+        )
 
 
     }catch(error){
